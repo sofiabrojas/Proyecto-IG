@@ -9,47 +9,102 @@
     <title>index</title>
 </head>
 <body>
-    <div id="contenedor">
-        <header>
-            <img src="img/banner.jpg" alt="banner">
-			<nav class="navbar navbar-expand-lg ">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"  href="historia.html">Historia</a>
-                      </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                       aria-expanded="false">Robbo</a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="biografiauno.html">Biografia</a></li>
-                        <li><a class="dropdown-item" href="galeriauno.html">Galeria de arte</a></li>
-                     </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                         aria-expanded="false">Banksy</a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="biografiauno.html">Biografia</a></li>
-                          <li><a class="dropdown-item" href="galeriauno.html">Galeria de arte</a></li>
-                       </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link"  href="documental.html">Documental</a>
-                      </li>
-                      <li class="nav-item"></li>
-                      <li class="nav-item"></li>
-                        <a class="nav-link"  href="adicional.html">Adicional</a>
-                      </li>
-                        <a class="nav-link"  href="formulario.html">Opinion</a>
-                      </li>
-                    </li>
-                    <a class="nav-link"  href="biografiamia.html">Autora</a>
-                  </li>
-              </nav>
-		<main>
+    <div class="container">
+      <header>
+        <!--banner-->
+        <img src="img/banner.jpg" class="img-fluid" alt="banner" style="justify-content: center;">
+        <!--Menu desptok-->
+                    <nav class="navbar navbar-expand-lg d-none d-md-inline">
+                        <ul class="nav nav-tabs d-flex justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                    aria-expanded="false">Robbo</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="biografiauno.html">Biografia</a></li>
+                                    <li><a class="dropdown-item" href="galeriauno.html">Galeria de arte</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                    aria-expanded="false">Banksy</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="biografiados.html">Biografia</a></li>
+                                    <li><a class="dropdown-item" href="galeriados.html">Galeria de arte</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="documental.html">Documental</a>
+                            </li>
+                            <li class="nav-item"></li>
+                            <li class="nav-item"></li>
+                            <a class="nav-link" href="adicional.html">Adicional</a>
+                            </li>
+                            <a class="nav-link" href="formulario.html">Opinion</a>
+                            </li>
+                            </li>
+                            <a class="nav-link" href="biografiamia.html">Autora</a>
+                            </li>
+                    </nav>
+        
+         <!--Menu mobile-->           
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary d-md-none">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">Menu</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="historia.html">Historia</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Robbo
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="biografiauno.html">Biografia</a></li>
+                                  <li><a class="dropdown-item" href="galeriauno.html">Galeria de arte</a></li>
+                                  </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Bansky
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="biografiados.html">Biografia</a></li>
+                                  <li><a class="dropdown-item" href="galeriados.html">Galeria de arte</a></li>
+                                  </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="documental.html">Documental</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="adicional.html">Adicional</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="biografiamia.html">Autora</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav> 
+  
+  </header>
+       <!--Contenido Index-->    
+  <main>
+      <p style="margin: 4em;border: 1px solid gray; padding: 1em;">Robbo vs Banksy es una mítica película que cuenta la rivalidad entre el escritor de graffiti Robbo y el artista urbano Banksy.  
+      Además nos muestra la visión diferente que se tiene del graffiti y del arte urbano y de cómo los artistas o escritores tratan de
+       hacerse un hueco en el mundo del arte.</p>
             <div id="film">
             <iframe width="900" height="500" src="https://www.youtube.com/embed/5E7xYRt_VqQ?si=_SgiyX8UTZKAr2O
             9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
@@ -57,10 +112,21 @@
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 </main>
-<footer>
-    <img src="img/bannerfooter.jpg" class="img-fluid" alt="banner">
-</footer>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+              <!--contacto + banner-->
+              <img src="img/bannerfooter.jpg" class="img-fluid" alt="banner" style="margin-top: 1em;margin-bottom: 1em; justify-content: center;">
+              <footer style="border: 1px solid gray;padding: 0.5em;background-color: rgb(231, 230, 228);">
+                 <address >
+                  Para mas informacion contactarse con <a href="mailto:ejemplo@correo.com">sofiabrojas2024@gmail.com</a>
+                 </address> 
+  
+              </footer>
+      </div>
+      <!--Links de jS BOOPSTRAP-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+   crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VF
+   vRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qB
+  BavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </html>

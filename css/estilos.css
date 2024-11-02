@@ -6,7 +6,7 @@ body {background-color: white;
     
     width: 960px;
     padding: 2em;
-    margin: 2em;
+    margin: 0.2em;
     width: 100%;
     max-width: 960px;
     text-align: center;
@@ -37,6 +37,14 @@ footer a:hover{
 
 #film {
  text-align: center;
- margin: 1em;
+ margin-top: 1em;
+ margin-bottom: 2em;
 }
+.tipografiah1  {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  
 
