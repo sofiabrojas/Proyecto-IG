@@ -15,6 +15,20 @@ body {background-color: white;
 .nav-link {color: black;}
 .nav-link:hover {
    color: rgb(145, 100, 122);}
+   /*estilos del foooter*/
+footer a:link {
+    color: rgb(145, 100, 122);;
+}
+footer a:hover{
+    color: blueviolet;
+}
+/*h1 index*/
+#tipografiaindex{
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+/*textos con bbordes*/
 .textodestacado {
     border: 1px solid rgb(163, 161, 161);
     padding: 10px; 
@@ -26,6 +40,3 @@ body {background-color: white;
  margin: 1em;
 }
 
-
-  
- 
