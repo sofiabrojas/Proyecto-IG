@@ -1,12 +1,10 @@
 *{box-sizing: border-box;}
-body {background-color: white;
-    display: flex;    
-    justify-content: center;}
-.container{
+
+.contenedor{
+  width: 960px;
+    padding-left: 1em;
+    padding-right: 1em;
     
-    width: 960px;
-    padding: 2em;
-    margin: 0.2em;
     width: 100%;
     max-width: 960px;
     text-align: center;
@@ -28,23 +26,101 @@ footer a:hover{
     font-weight: 700;
     font-style: normal;
   }
-/*textos con bbordes*/
-.textodestacado {
-    border: 1px solid rgb(163, 161, 161);
-    padding: 10px; 
-    display: inline-block;
-    }
 
-#film {
- text-align: center;
- margin-top: 1em;
- margin-bottom: 2em;
-}
+
+
 .tipografiah1  {
     font-family: "Pacifico", serif;
     font-weight: 400;
     font-style: normal;
     
   }
+  /*h1 galerias*/
+ .tipografiagaleria{
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /*h1 adicional y historia*/
+ 
   
+.tipografiahiadi {
+  font-family: "New Amsterdam", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ /*carrusel galerias*/
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
 
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    object-fit: cover;
+   
+      
+  }
+
+
+  .swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiper2 {
+    height: 80%;
+    width: 100%;
+  }
+
+  .mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+    
+  /*ESTILOS PARA MOBILE youtube*/
+@media (max-width: 480px){
+    iframe {
+        width: 150px;
+        height: 150px;
+    }
+}  
